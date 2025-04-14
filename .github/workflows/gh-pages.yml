@@ -15,7 +15,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
 
-      - name: Upload `currency-converter` Folder
+      - name: Upload currency-converter folder
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./currency-converter
@@ -23,3 +23,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+
